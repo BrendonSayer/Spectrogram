@@ -3,6 +3,12 @@
 		<title>Spectogram</title>
 	</head>
 	<body>
-		<h1>Hello World</h1>
+		<form method="POST" action="/process_signal">
+			<label name="hz1">Input hz:</label><br>
+			<input type="number" id="hz1" name="hz1"><br>
+			<label name="hz2">Input second hz:</label><br>
+			<input type="number" id="hz2" name="hz2"><br>
+			<input type="submit" value="Submit">
+		</form>
 	</body>
 </html>
